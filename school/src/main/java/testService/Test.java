@@ -25,7 +25,6 @@ public class Test {
         Enseignant enseignant = new Enseignant();
         enseignant.setNom("Djamdoudou");
         enseignant.setPrenom("Fadimatou");
-        enseignant.setMatricule("12XUUUZ");
         iEnseignantService.createEnseignant(enseignant);
 
         
